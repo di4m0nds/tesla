@@ -1,0 +1,25 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section
+    title="Model Y"
+    subtitle="Starting at $40,240 - After Federal Tax Credit"
+    color="black"
+    id="section-two"
+>
+    <div class="gap-x-5 flex mx-auto" slot="footer">
+        <a href="#" class="text-black text-lg bg-gray-200 font-medium py-[0.45rem] px-[4.3rem] rounded border-gray-200 border-[3px] hover:shadow-lg duration-500">
+           Explore Inventory
+       </a>
+        <a href="#" class="text-white text-lg bg-gray-600 font-medium py-[0.45rem] px-[4.3rem] rounded border-gray-600 border-[3px] hover:shadow-lg duration-500">
+           Custom Order
+       </a>
+    </div>
+    <img
+        slot="background"
+        src="/model-y.avif"
+        alt="Model Y"
+        class="object-center object-cover h-full w-screen"
+    />
+</Section>
